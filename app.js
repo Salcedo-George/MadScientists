@@ -7,7 +7,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var aboutRouter = require('./routes/about');
-var thelabratory = require('./routes/thelabratory');
+var thelabratoryRouter = require('./routes/thelabratory');git status
 var app = express();
 
 // view engine setup
