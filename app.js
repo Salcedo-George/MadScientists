@@ -11,6 +11,7 @@ var usersRouter = require('./routes/users');
 var aboutRouter = require('./routes/about');
 var thelabratoryRouter = require('./routes/thelabratory');
 var myNewPageRouter = require('./routes/mynewpage');
+var roomwithaviewRouter = require('./routes/roomwithaview');
 
 var app = express();
 
@@ -31,6 +32,7 @@ app.use('/users', usersRouter);
 app.use('/about', aboutRouter);
 app.use('/thelabratory', thelabratoryRouter);
 app.use('/mynewpage', myNewPageRouter);
+app.use('/roomwithaview', roomwithaviewRouter);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
